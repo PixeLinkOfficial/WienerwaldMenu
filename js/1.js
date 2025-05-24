@@ -403,7 +403,8 @@ document.querySelector('.cart-num').innerHTML=count;
 function f12(){
   if(parseInt(localStorage.getItem("countcart"))===0)
   {
-    document.querySelector('.cart-bar').style.opacity=1;
+    document.querySelector('.cart-bar').style.opacity=0;
+    document.querySelector('.cart-bar').style.pointerEvents="none";
     
   }else
   {
