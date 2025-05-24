@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+Arabic:wght@100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wienerwald Cafe</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin-top: 10%;
+            background-color: #007f57;
+        }
+
+        /* Logo animation */
+        .logo {
+            opacity: 0;
+            animation: slideUp 1s ease-out 0.3s forwards;
+            will-change: opacity, transform;
+        }
+
+        .img {
+            width: 300px;
+            
+            
+        }
+
+        /* Language buttons animation */
+        .lang {
+            opacity: 0;
+            animation: fadeIn 1.5s ease-out forwards, slideUp 1s ease-out 0.6s forwards;
+            will-change: opacity, transform;
+        }
+
+        .lang a button {
+            opacity: 0;
+            animation: scaleUp 1s ease-out forwards 0.9s;
+            will-change: transform, opacity;
+        }
+
+        /* Other elements styling */
+        .logo {
+            text-align: center;
+            margin: 60px auto 100px auto;
+        }
+
+        
+
+        .lang {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 auto;
+            margin-bottom: 50px;
+        }
+
+        .lang a button {
+            width: 280px;
+            height: 55px;
+            border-radius: 15px;
+            margin-bottom: 20px;
+            border: none;
+            background-color: white;
+            box-shadow: 1px 1px 5px rgb(0, 0, 0);
+            color: #2a1e12;
+            cursor: pointer;
+            font-size: 22px;
+            font-family: 'Noto Sans Arabic', serif;
+            font-weight: 600;
+        }
+
+        .abt {
+            padding-bottom: 10px;
+        }
+
+        .abt-logo {
+            text-align: center;
+            margin: 0 auto 0 auto;
+        }
+
+        .abt-img {
+            width: 100px;
+        }
+
+        .abt-soc {
+            display: flex;
+            margin: 0 20% 0 20%;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .abt-img12 {
+            width: 45px;
+            filter: drop-shadow(1px 1px 5px rgb(0, 0, 0));
+            filter: invert(100%) brightness(300%);
+        }
+
+        .abt-img13 {
+            width: 35px;
+            filter: drop-shadow(1px 1px 5px rgb(0, 0, 0));
+            filter: invert(100%) brightness(300%);
+        }
+
+        .abt-img1 {
+            width: 35px;
+            filter: drop-shadow(1px 1px 5px rgb(0, 0, 0));
+            filter: invert(100%) brightness(300%);
+        }
+
+        .abt-img14 {
+            width: 35px;
+            filter: drop-shadow(1px 1px 5px rgb(0, 0, 0));
+            filter: invert(100%) brightness(300%);
+        }
+
+        /* Animations */
+
+        /* Fade-in animation */
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+            }
+
+            100% {
+                opacity: 1;
+            }
+        }
+
+        /* Slide-up animation */
+        @keyframes slideUp {
+            0% {
+                transform: translateY(20px);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Scale-up effect for buttons */
+        @keyframes scaleUp {
+            0% {
+                transform: scale(0.8);
+                opacity: 0;
+            }
+
+            100% {
+                transform: scale(1);
+                opacity: 1;
+            }
+        }
+
+        .fotter2{
+    width: 105%;
+    margin: 0 0 0 -10px;
+}
+.fotter2 img{
+   width: 100%;
+}
+.relat{
+    position: absolute;
+    top: 100px;
+    right: 10px;
+}
+.relat img{
+    width: 150px;
+}
+
+    </style>
+</head>
+<body>
+    <div class="relat">
+        <img src="img/piz.png">
+    </div>
+    <div class="logo">
+        <img class="img" src="img/Wienerwald_(Restaurant)_logo.svg.png">
+    </div>
+    <div class="lang">
+        <a href="1.html"><button onclick="lansel(1);">English</button></a>
+        <a href="1.html"><button onclick="lansel(2);">العربية</button></a>
+    </div>
+    <div class="abt">
+        <div class="abt-soc">
+            <div class="abt-soc1"><a href="https://www.instagram.com/wwmosul/"><img class="abt-img12" src="img/instgram.webp"></a></div>
+            <div class="abt-soc1"><a href="https://www.instagram.com/wwmosul/"><img class="abt-img13" src="img/Facebook_Logo_(2019).png"></a></div>
+            <div class="abt-soc1"><a href="https://www.instagram.com/wwmosul/"><img class="abt-img1" src="img/snapchat-icon-free-png.webp"></a></div>
+            <div class="abt-soc1"><a href="https://www.instagram.com/wwmosul/"><img class="abt-img14" src="img/whatsapp-icon-free-png.webp"></a></div>
+        </div>
+    </div>
+
+    <div class="fotter2">
+        <img src="img/backi.png">
+    </div>
+    <script>
+        function lansel(val) {
+            if (val == 1)
+                localStorage.setItem("lan", "eng");
+            else if (val == 2)
+                localStorage.setItem("lan", "arb");
+        }
+    </script>
+</body>
+</html>

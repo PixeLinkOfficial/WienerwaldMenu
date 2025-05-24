@@ -1,0 +1,193 @@
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid black;
+}
+body{
+    background-color: #007f57;
+    margin-top: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 80px;
+}
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 65px;
+    background-color: white;
+    border-top: 2px solid black;
+    display: flex;
+    align-items: center;
+}
+.bs1{
+    flex: 1;
+    margin: 0 30px 0 30px;
+    height: 40px;
+    font-size: 15px;
+    font-weight: 550;
+    border-radius: 10px;
+    border: none;
+    background-color: #007f57;
+    color: white;
+}
+.img1 , .img2{
+    width: 20px;
+}
+.img3{
+    width: 12px;
+}
+.b1{
+    margin-left: 15px;
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    border: none;
+    background-color: white;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+.b1:hover{
+    background-color: rgb(208, 208, 208);
+}
+.b1:active{
+    background-color: rgb(153, 153, 153);
+}
+
+.b2{
+    margin-right: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 110px;
+    height: 30px;
+    border-radius: 7px;
+    border: 1px solid black;
+    background-color: white;
+    cursor: pointer;
+}
+.b2:hover{
+    background-color: rgb(218, 218, 218);
+}
+
+.b2:active{
+    background-color: rgb(183, 182, 182);
+}
+
+.p1{
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 550;
+}
+
+.rldiv{
+    background-color: black;
+    position: absolute;
+    bottom: -60px;
+    top: 57px;
+    width: 75px;
+    right: 27px;
+    z-index: 1;
+    border-radius: 10px;
+    opacity: 0;
+    transition: opacity 0.2s;
+}
+.English ,.arabic {
+    width: 100%;
+    background-color: black;
+    color: white;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    transition: background-color 0.3s;
+}
+.English{
+    margin-top: 8px;
+    font-size: 13px;
+    padding: 7px 0 7px 0;
+}
+.arabic{
+    font-size: 17px;
+    padding: 3px 0 3px 0;
+}
+.kurdish{
+    font-size: 17px;
+    padding: 3px 0 3px 0;
+}
+.English:hover ,.arabic:hover ,.kurdish:hover{
+    background-color: rgb(58, 58, 58);
+}
+.English:active ,.arabic:active ,.kurdish:active{
+    background-color: rgb(87, 87, 87);
+}
+
+h3{
+    margin: 0 auto;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 15px;
+}
+.hr1{
+    margin-bottom: 10px;
+    border-style: solid;
+    color: white;
+}
+.r{
+    width: 97%;
+    height: 130px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.r6{
+    height: 170px;
+}
+
+.rp{
+    border-bottom: 1px solid black;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    font-size: 14px;
+    font-weight: 550;
+}
+
+.stars-div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin: 0 15% 0 15%;
+    
+}
+
+.stars-div button{
+    border: none;
+    background-color: transparent;
+}
+
+.stars-div button img{
+    width: 30px;
+}
+
+.invisbleinp{
+    opacity: 0;
+    pointer-events: none;
+}
+input{
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+textarea{
+    border: 1px solid grey;
+    border-radius: 5px;
+}

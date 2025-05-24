@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <title>cart</title>
+    <style>
+                
+        .header2{
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 80px;
+            background-color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 2px solid black;
+        }
+        body{
+            background-color: #007f57;
+            margin-top: 100px;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-bottom: 80px;
+        }
+        .bs1{
+            flex: 1;
+            margin: 0 30px 0 30px;
+            height: 40px;
+            font-size: 15px;
+            font-weight: 550;
+            border-radius: 10px;
+            border: none;
+            background-color: #007f57;
+            color: white;
+        }
+        .img1 , .img2{
+            width: 20px;
+        }
+        .img3{
+            width: 12px;
+        }
+        .b1{
+            margin-left: 15px;
+            height: 40px;
+            width: 40px;
+            border-radius: 20px;
+            border: none;
+            background-color: white;
+            transition: background-color 0.3s;
+            cursor: pointer;
+        }
+        .b1:hover{
+            background-color: rgb(208, 208, 208);
+        }
+        .b1:active{
+            background-color: rgb(153, 153, 153);
+        }
+
+        .b2{
+            margin-right: 15px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            width: 110px;
+            height: 30px;
+            border-radius: 7px;
+            border: 1px solid black;
+            background-color: white;
+            cursor: pointer;
+        }
+        .b2:hover{
+            background-color: rgb(218, 218, 218);
+        }
+
+        .b2:active{
+            background-color: rgb(183, 182, 182);
+        }
+
+        .p1{
+            display: inline-block;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 550;
+        }
+
+        .rldiv{
+            background-color: black;
+            position: absolute;
+            bottom: -50px;
+            top: 57px;
+            width: 75px;
+            right: 27px;
+            z-index: 1;
+            border-radius: 10px;
+            opacity: 0;
+            transition: opacity 0.2s;
+        }
+        .English ,.arabic, .kurdish{
+            width: 100%;
+            background-color: black;
+            color: white;
+            border: none;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 500;
+            transition: background-color 0.3s;
+        }
+        .English{
+            margin-top: 8px;
+            font-size: 13px;
+            padding: 7px 0 7px 0;
+        }
+        .arabic{
+            font-size: 17px;
+            padding: 3px 0 3px 0;
+        }
+        .kurdish{
+            font-size: 17px;
+            padding: 3px 0 3px 0;
+        }
+        .English:hover ,.arabic:hover ,.kurdish:hover{
+            background-color: rgb(58, 58, 58);
+        }
+        .English:active ,.arabic:active .kurdish:active{
+            background-color: rgb(87, 87, 87);
+        }
+        .checkmain{
+            background-color: rgb(255, 255, 255);
+            
+            border-radius: 5px;
+            padding: 20px;
+        }
+        .checkbuts{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding-top: 20px;
+        }
+        .butex2 , .butex1{
+            flex: 1;
+            height: 35px;
+            border-radius: 17.5px;
+            border: none;
+            box-shadow: 1px 1px 5px rgb(73, 73, 73);
+            font-weight: 600;
+            color: rgb(38, 38, 38);
+            cursor: pointer;
+        }
+        .butex1{
+            margin-right: 30px;
+        }
+        .xmm1{
+            margin-left:10px;
+            margin-right: 15px;
+        }
+        .xmm2{
+            margin-right: 15px;
+            font-family: "Kanit", serif;
+            
+        }
+        .xsmm3{
+            width: 8px;
+        }
+        .xsmm4{
+            width: 10px;
+            height: 10px;
+        }
+        .js-del-it{
+            border-radius: 10px;
+            border: 1px solid grey;
+        }
+        #xsmdiv{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 10px;
+
+        }
+        .xsmdiv1{
+            display: flex;
+            align-items: center;
+        }
+        .pricet{
+            color: rgb(49, 49, 49);
+            
+            font-family: "Kanit", serif;
+        }
+        .hiawi{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            color: black;
+            font-family: "Kanit", serif;
+            padding-top: 30px;
+        }
+        .khalaf{
+            color: rgb(49, 49, 49);
+        }
+        .js-max{
+            border: none;
+            border-top-left-radius: 10px;  /* Radius for the top-left corner */
+            border-top-right-radius: 10px;
+            margin-bottom: 3px;
+            padding-right: 13px;
+            padding-left: 13px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            box-shadow: 1px 1px 5px grey;
+        }
+        .js-min{
+            border: none;
+            border-bottom-left-radius: 10px;  /* Radius for the top-left corner */
+            border-bottom-right-radius: 10px;
+            padding-right: 13px;
+            padding-left: 13px;
+            padding-top: 3px;
+            padding-bottom: 3px;
+            box-shadow: 1px 1px 5px grey;
+        }
+        .js-khalaf{
+            
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div class="header2">
+        <div><a class="b" href="1.html" target="_self"><button class="b1"><img class="img1" src="img/340.png"></button></a></div>
+        <div class="a"></div>
+            
+            
+    </div>
+    
+    <div class="checkmain">
+        <div class="checkitems">
+
+        </div>
+        <div class="hiawi">
+        
+        </div>
+    </div>
+    <div class="checkbuts">
+        <button class="butex1" onclick="window.location.href='1.html';">Add order</button>
+        <button class="butex2">Clear</button>
+    </div>
+    
+
+    
+    <script type="module" src="js/checkout.js"></script>
+    
+</body>
+</html>
