@@ -93,7 +93,7 @@ document.querySelectorAll('label').forEach(el1 => {
   document.querySelector('.b5d').innerText="خبز برغر، شريحة لحم، جبنة، خس، بصل، طماطم";
   document.querySelector('.b6d').innerText="خبز برغر، قطعة دجاج مقرمشة، خس، طماطم، مايونيز";
 
-  document.querySelector('.h2').innerText="سندوج";
+  document.querySelector('.h2').innerText="سندويتش";
   document.querySelector('.p11').innerText="تويستر زنجر";
   document.querySelector('.p22').innerText="تشيز تويستر";
   document.querySelector('.p33').innerText="فاهيتا لحم";
@@ -174,7 +174,7 @@ else
   document.querySelector('.b5m').innerText="ستيك برجر";
   document.querySelector('.b6m').innerText="زنجر باربيكيو";
 
-  document.querySelector('.h2m').innerText="سندوج";
+  document.querySelector('.h2m').innerText="سندويتش";
   document.querySelector('.p11m').innerText="تويستر زنجر";
   document.querySelector('.p22m').innerText="تشيز تويستر";
   document.querySelector('.p33m').innerText="فاهيتا لحم";
