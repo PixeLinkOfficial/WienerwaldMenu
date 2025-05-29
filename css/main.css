@@ -173,7 +173,7 @@ height: 100%;
 
 }
 .pdescm{
-    font-size: 15px;
+    font-size: 14px;
     color: rgb(96, 96, 96);
     margin: 0 0 25% 10%;
     height: 20px;
@@ -182,6 +182,7 @@ height: 100%;
     font-size: 15px;
     color: rgb(0, 51, 182);
     margin: 0 0 5% 10%;
+    padding-top: 40px;
 }
 .ch2fr{
     display: none;
