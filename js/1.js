@@ -182,7 +182,7 @@ document.querySelectorAll('label').forEach(el1 => {
 
   document.querySelector('.h12').innerText="ايسد كوفي";
   document.querySelector('.ic1').innerText="ايسد لاتيه ";
-  document.querySelector('.ic2').innerText="يسد موكا ";
+  document.querySelector('.ic2').innerText="ايسد موكا ";
 
 }
 else
@@ -264,7 +264,7 @@ else
 
   document.querySelector('.h12m').innerText="ايسد كوفي";
   document.querySelector('.ic1m').innerText="ايسد لاتيه ";
-  document.querySelector('.ic2m').innerText="يسد موكا ";
+  document.querySelector('.ic2m').innerText="ايسد موكا ";
 
 }
 
