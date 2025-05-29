@@ -54,6 +54,7 @@ butara.addEventListener('click',()=>{
   document.querySelector('body').style.fontWeight= 500;
   document.querySelector('body').style.lineHeight = "15px"; 
   document.querySelector('body').style.textAlign = "right"; 
+  document.querySelector('#sc3m').style.textAlign = "left"; 
   document.querySelectorAll('p').forEach(el1 => {
     el1.style.paddingRight = "25px";
   });
@@ -78,6 +79,14 @@ document.querySelectorAll('label').forEach(el1 => {
   document.querySelectorAll('.div1m .bm').forEach(el => {
     el.style.gridTemplateColumns = "1.5fr 2fr";
   });
+
+  
+  document.querySelectorAll('.wasat').forEach(el => {
+    el.innerText="وسط";
+  });document.querySelectorAll('.kabr').forEach(el => {
+    el.innerText="كبير";
+  });
+
 
   document.querySelector('.h1').innerText="برجر";
   document.querySelector('.b1').innerText="تشيز برجر";
