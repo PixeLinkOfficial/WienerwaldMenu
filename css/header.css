@@ -176,7 +176,7 @@ header{
 .rldiv{
     background-color: black;
     position: absolute;
-    bottom: -65px;
+    bottom: -70px;
     top: 30px;
     width: 75px;
     right: 30%;
@@ -193,6 +193,7 @@ header{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     transition: background-color 0.3s;
+    border-radius: 100%;
 }
 .English{
     margin-top: 8px;
