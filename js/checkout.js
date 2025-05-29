@@ -226,6 +226,51 @@ let dataCart=[
         id:45,
         name: 'Pepsi'
         ,price:1000
+    },
+    {
+        id:46,
+        name: 'Tea'
+        ,price:1000 
+    },
+    {
+        id:47,
+        name: 'Americano'
+        ,price:4000 
+    },
+    {
+        id:48,
+        name: 'Cappuccino'
+        ,price:4000 
+    },
+    {
+        id:49,
+        name: 'Espresso single'
+        ,price:3000 
+    },
+    {
+        id:50,
+        name: 'Espresso double'
+        ,price:4000 
+    },
+    {
+        id:51,
+        name: 'Turkish Coffee'
+        ,price:3000 
+    },
+    {
+        id:52,
+        name: 'Hot Chocolate'
+        ,price:3000 
+    },
+    {
+        id:53,
+        name: 'Iced Latte'
+        ,price:5000 
+    },
+    {
+        id:54,
+        name: 'Iced Mocha'
+        ,price:5000 
     }
   ];
 
