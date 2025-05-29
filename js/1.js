@@ -171,6 +171,19 @@ document.querySelectorAll('label').forEach(el1 => {
   document.querySelector('.h10').innerText="المشروبات";
   document.querySelector('.dr1').innerText="بيبسي";
 
+  document.querySelector('.h11').innerText="المشروبات الساخنة";
+  document.querySelector('.hd1').innerText="شاي";
+  document.querySelector('.hd2').innerText="اميركانو";
+  document.querySelector('.hd3').innerText="كابتشينو";
+  document.querySelector('.hd4').innerText="ايسبرسو سنجل";
+  document.querySelector('.hd5').innerText="ايسبرسو دبل";
+  document.querySelector('.hd6').innerText="قهوة تركية";
+  document.querySelector('.hd7').innerText="هوت شوكلت";
+
+  document.querySelector('.h12').innerText="ايسد كوفي";
+  document.querySelector('.ic1').innerText="ايسد لاتيه ";
+  document.querySelector('.ic2').innerText="يسد موكا ";
+
 }
 else
 {
@@ -239,6 +252,19 @@ else
 
   document.querySelector('.h10m').innerText="المشروبات";
   document.querySelector('.dr1m').innerText="بيبسي";
+
+  document.querySelector('.h11m').innerText="المشروبات الساخنة";
+  document.querySelector('.hd1m').innerText="شاي";
+  document.querySelector('.hd2m').innerText="اميركانو";
+  document.querySelector('.hd3m').innerText="كابتشينو";
+  document.querySelector('.hd4m').innerText="ايسبرسو سنجل";
+  document.querySelector('.hd5m').innerText="ايسبرسو دبل";
+  document.querySelector('.hd6m').innerText="قهوة تركية";
+  document.querySelector('.hd7m').innerText="هوت شوكلت";
+
+  document.querySelector('.h12m').innerText="ايسد كوفي";
+  document.querySelector('.ic1m').innerText="ايسد لاتيه ";
+  document.querySelector('.ic2m').innerText="يسد موكا ";
 
 }
 
@@ -368,6 +394,24 @@ butscrol10.addEventListener('click', function () {
   }
 });
 
+const butscrol11 = document.querySelector('.item11');
+butscrol11.addEventListener('click', function () {
+  if (!ischangedL) {
+    scrollToElement('sc11m');
+  } else {
+    scrollToElement('sc11');
+  }
+});
+
+const butscrol12 = document.querySelector('.item12');
+butscrol12.addEventListener('click', function () {
+  if (!ischangedL) {
+    scrollToElement('sc12m');
+  } else {
+    scrollToElement('sc12');
+  }
+});
+
 // Example of toggling the layout (to simulate your layout change button)
 const layoutToggleButton = document.querySelector('.layout-toggle'); // Change to your layout toggle button selector
 layoutToggleButton.addEventListener('click', function () {
@@ -384,6 +428,8 @@ layoutToggleButton.addEventListener('click', function () {
   document.getElementById('sc8').style.display = ischangedL ? 'block' : 'none';
   document.getElementById('sc9').style.display = ischangedL ? 'block' : 'none';
   document.getElementById('sc10').style.display = ischangedL ? 'block' : 'none';
+  document.getElementById('sc11').style.display = ischangedL ? 'block' : 'none';
+  document.getElementById('sc12').style.display = ischangedL ? 'block' : 'none';
 
   document.getElementById('sc1m').style.display = ischangedL ? 'none' : 'block';
   document.getElementById('sc2m').style.display = ischangedL ? 'none' : 'block';
@@ -395,6 +441,9 @@ layoutToggleButton.addEventListener('click', function () {
   document.getElementById('sc8m').style.display = ischangedL ? 'none' : 'block';
   document.getElementById('sc9m').style.display = ischangedL ? 'none' : 'block';
   document.getElementById('sc10m').style.display = ischangedL ? 'none' : 'block';
+  document.getElementById('sc11m').style.display = ischangedL ? 'none' : 'block';
+  document.getElementById('sc12m').style.display = ischangedL ? 'none' : 'block';
+
 });
 
 
@@ -468,7 +517,7 @@ let scrollEnabled = true; // Flag to enable/disable scrolling
 let scrollHandlers = []; // Store scroll event handlers to remove them later
 
 function enableScrollEffect() {
-  for (let i = 1; i <= 10; i++) {
+  for (let i = 1; i <= 12; i++) {
     const verticalElement = document.querySelector(`.ver${i}`);
     const horizontalContainer = document.querySelector('.items');
     const horizontalTarget = document.querySelector(`.hor${i}`);
@@ -506,7 +555,7 @@ else if(localStorage.getItem('lan')=="kur")
 htlan();
 
 function enableAlternateScrollEffect() {
-  for (let i = 1; i <= 10; i++) {
+  for (let i = 1; i <= 12; i++) {
     const verticalElement = document.querySelector(`.vert${i}`);
     const horizontalContainer = document.querySelector('.items');
     const horizontalTarget = document.querySelector(`.hort${i}`);
