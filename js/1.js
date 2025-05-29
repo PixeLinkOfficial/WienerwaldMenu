@@ -163,7 +163,7 @@ document.querySelectorAll('label').forEach(el1 => {
   document.querySelector('.ap22').innerText="مقبلات كبير";
   document.querySelector('.ap33').innerText="فنكر";
   document.querySelector('.ap44').innerText="بطاطس ويدجز";
-  document.querySelector('.ap55').innerText="اصابع مونزريلا";
+  document.querySelector('.ap55').innerText="اصابع موتزاريلا";
   document.querySelector('.ap66').innerText="صوص وينر";
   document.querySelector('.ap77').innerText="صوص باربيكيو";
   document.querySelector('.ap88').innerText="صوص شيدر";
@@ -245,7 +245,7 @@ else
   document.querySelector('.ap22m').innerText="مقبلات كبير";
   document.querySelector('.ap33m').innerText="فنكر";
   document.querySelector('.ap44m').innerText="بطاطس ويدجز";
-  document.querySelector('.ap55m').innerText="اصابع مونزريلا";
+  document.querySelector('.ap55m').innerText="اصابع موتزاريلا";
   document.querySelector('.ap66m').innerText="صوص وينر";
   document.querySelector('.ap77m').innerText="صوص باربيكيو";
   document.querySelector('.ap88m').innerText="صوص شيدر";
