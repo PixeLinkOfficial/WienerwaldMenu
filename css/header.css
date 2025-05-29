@@ -139,7 +139,21 @@ header{
     background-image: url(sodico.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 70%;
+    background-size: 65%;
+}
+
+.item11{
+    background-image: url(coffeeicon.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 90%;
+}
+
+.item12{
+    background-image: url(icecoffe.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 65%;
 }
 
 .item1 { animation-delay: 0s; }
@@ -152,6 +166,8 @@ header{
 .item8 { animation-delay: 1.4s; }
 .item9 { animation-delay: 1.6s; }
 .item10 { animation-delay: 1.8s; }
+.item11 { animation-delay: 2.0s; }
+.item12 { animation-delay: 2.2s; }
 
 
 @keyframes fadeInUp {
