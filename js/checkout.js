@@ -5,7 +5,132 @@ let dataCart=[
     {
         id:1,
         name: 'Cheese Burger',
+        price: 6000
+    },
+    {
+        id: 1000,
+        name: 'Double Cheese Burger',
+        price: 7500
+    },
+    {
+        id: 1001,
+        name: 'Mozzarella Burger',
+        price: 7000
+    },
+    {
+        id: 1002,
+        name: 'Mushroom  Burger',
+        price: 7000
+    },
+    {
+        id: 1003,
+        name: 'Wienerwald  Burger',
+        price: 7500
+    },
+    {
+        id: 1004,
+        name: 'Smoked  Burger',
         price: 5500
+    },
+    {
+        id: 1005,
+        name: 'Zinger Double Burger',
+        price: 7000
+    },
+    {
+        id: 1006,
+        name: 'Zinger Supreme Burger',
+        price: 6000
+    },
+    {
+        id: 1007,
+        name: 'Jalapeno Zinger Burger',
+        price: 5500
+    },
+    {
+        id: 1008,
+        name: 'Wienerwald Zinger Burger',
+        price: 6500
+    },
+    {
+        id: 1009,
+        name: 'Hot Twister',
+        price: 5500
+    },
+    {
+        id: 1010,
+        name: 'Philadelphia sandwich',
+        price: 7000
+    },
+    {
+        id: 1011,
+        name: 'Francesco Chicken sandwich',
+        price: 5000
+    },
+    {
+        id: 1012,
+        name: 'Steak sandwich',
+        price: 7000
+    },
+    {
+        id: 1013,
+        name: 'Chicken box',
+        price: 8500
+    },
+    {
+        id: 1014,
+        name: 'Crispy box',
+        price: 10000
+    },
+    {
+        id: 1015,
+        name: 'Wienerwald box',
+        price: 9000
+    },
+    {
+        id: 1016,
+        name: 'Twin Crispy Twister',
+        price: 11000
+    },
+    {
+        id: 1017,
+        name: 'Twister box',
+        price: 7500
+    },
+    {
+        id: 1018,
+        name: 'Hot box',
+        price: 8500
+    },
+    {
+        id: 1019,
+        name: 'Barbecue Rizo',
+        price: 5500
+    },
+    {
+        id: 1020,
+        name: 'Hot Rizo',
+        price: 6500
+    },
+    {
+        id: 1021,
+        name: 'Wienerwald Rizo',
+        price: 6000
+    },
+    {
+        id: 2000,
+        name: 'water',
+        price: 250
+    },
+    {
+        id: 2001,
+        name: 'Chicken Steak',
+        price: 7500
+    },
+    {
+        id: 2002,
+        name: 'Meat Steak',
+        price: 12000
     },
     {
         id:2,
@@ -30,7 +155,7 @@ let dataCart=[
     {
         id:6,
         name: 'Zinger Barbecue Burger'
-        ,price:6000
+        ,price:5500
     },
     {
         id:7,
@@ -45,21 +170,21 @@ let dataCart=[
     {
         id:9,
         name: 'Meat Fahita'
-        ,price:5000
+        ,price:7000
     },
     {
         id:10,
         name: 'Chicken Fahita'
-        ,price:4000
+        ,price:6000
     },
     {
         id:11,
-        name: 'Wienerwald Shawarma'
+        name: 'Wienerwald Saj'
         ,price:4000
     },
     {
         id:12,
-        name: 'Pizza Habel Daher'
+        name: 'Steak Pizza'
         ,price:10000
     },
     {
@@ -70,7 +195,7 @@ let dataCart=[
     {
         id:14,
         name: 'Pizza Vegetables'
-        ,price:7500
+        ,price:8000
     },
     {
         id:15,
@@ -80,12 +205,12 @@ let dataCart=[
     {
         id:16,
         name: 'Pizza Chicken'
-        ,price:9000
+        ,price:8000
     },
     {
         id:17,
-        name: 'Pizza Tuna'
-        ,price:7000
+        name: 'Pizza Barbecue'
+        ,price:9000
     },
     {
         id:18,
@@ -110,12 +235,12 @@ let dataCart=[
     {
         id:22,
         name: 'Boneless chicken'
-        ,price:8000
+        ,price:8500
     },
     {
         id:23,
         name: 'chicken thighs'
-        ,price:8000
+        ,price:8500
     },
     {
         id:24,
@@ -149,17 +274,17 @@ let dataCart=[
     },
     {
         id:30,
-        name: 'Smoked Rizo'
+        name: 'Rizo mix'
         ,price:6000
     },
     {
         id:31,
-        name: 'Chicken salad'
-        ,price:5000
+        name: 'caesar salad'
+        ,price:6000
     },
     {
         id:32,
-        name: 'Chicken Steak'
+        name: 'Diet meal'
         ,price:7000
     },
     {
@@ -170,17 +295,17 @@ let dataCart=[
     {
         id:34,
         name: 'kids meal 1'
-        ,price:5000
+        ,price:6000
     },
     {
         id:35,
         name: 'kids meal 2'
-        ,price:5000
+        ,price:6000
     },
     {
         id:36,
         name: 'kids meal 3'
-        ,price:5000
+        ,price:6000
     },
     {
         id:37,
@@ -195,7 +320,7 @@ let dataCart=[
     {
         id:39,
         name: 'French fries'
-        ,price:1500
+        ,price:2000
     },
     {
         id:40,
@@ -210,7 +335,7 @@ let dataCart=[
     {
         id:42,
         name: 'Wienerwald sauce'
-        ,price:250
+        ,price:500
     },
     {
         id:43,
