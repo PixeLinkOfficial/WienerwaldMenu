@@ -54,7 +54,7 @@ butara.addEventListener('click',()=>{
   document.querySelector('body').style.fontWeight= 500;
   document.querySelector('body').style.lineHeight = "15px"; 
   document.querySelector('body').style.textAlign = "right"; 
-  document.querySelector('#sc3m').style.textAlign = "left"; 
+  document.querySelector('#sc4m').style.textAlign = "left"; 
   document.querySelectorAll('p').forEach(el1 => {
     el1.style.paddingRight = "25px";
   });
