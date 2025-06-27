@@ -85,71 +85,83 @@ header{
     background-size: 80%;
 }
 .item2{
+    background-image: url(zinger2.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+.item3{
     background-image: url(hhhhhhhhhhhhhh-01.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80%;
 }
-.item3{
+.item4{
     background-image: url(pizzaicon-01.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 70%;
 }
-.item4{
+.item5{
     background-image: url(tendericon.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 60%;
 }
-.item5{
+.item6{
     background-image: url(famicon.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 70%;
 }
-.item6{
+.item7{
     background-image: url(rizlog.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 70%;
 }
-.item7{
+.item8{
     background-image: url(steakicon.png);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 60%;
+    background-size: 70%;
+}
+.item9{
+    background-image: url(diet.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 65%;
 }
 
-.item8{
+.item10{
     background-image: url(141448.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 80%;
 }
 
-.item9{
+.item11{
     background-image: url(fricon.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 70%;
 }
 
-.item10{
+.item12{
     background-image: url(sodico.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 65%;
 }
 
-.item11{
+.item13{
     background-image: url(coffeeicon.png);
     background-position: center;
     background-repeat: no-repeat;
     background-size: 90%;
 }
 
-.item12{
+.item14{
     background-image: url(icecoffe.png);
     background-position: center;
     background-repeat: no-repeat;
