@@ -91,19 +91,43 @@ document.querySelectorAll('label').forEach(el1 => {
   document.querySelector('.h1').innerText="برجر";
   document.querySelector('.b1').innerText="تشيز برجر";
   document.querySelector('.b2').innerText="كلاسيك برجر";
+  document.querySelector('.new1').innerText="دبل جيز برجر";
+  document.querySelector('.new2').innerText=" موزاريلا برجر";
+  document.querySelector('.new3').innerText=" مشروم  برجر";
+  document.querySelector('.new4').innerText=" وينروالد  برجر";
+  document.querySelector('.new5').innerText="   برجر مدخن";
   document.querySelector('.b3').innerText="دبل برجر";
-  document.querySelector('.b4').innerText="زنجر";
+  document.querySelector('.b4').innerText="زنجر كلاسيك";
   document.querySelector('.b5').innerText="ستيك برجر";
   document.querySelector('.b6').innerText="زنجر باربيكيو";
   document.querySelector('.b1d').innerText="الخبز الخاص بالبرغر، شريحة لحم بقري، خس، طماطم، بصل، وجبنة";
   document.querySelector('.b2d').innerText="خبز برغر، شريحة لحم، خس، طماطم، بصل";
   document.querySelector('.b3d').innerText="خبز برغر، شريحتا لحم، خس، بصل، طماطم";
+  document.querySelector('.b3dn').innerText="خبز برغر، شريحتا لحم، خس، بصل، جبن, طماطم";
+  document.querySelector('.b2dn').innerText="خبز برغر، شريحة لحم، خس، بصل، جبن موزاريلا, طماطم";
+  document.querySelector('.b1dn').innerText="مشروم ,خبز برغر، شريحتا لحم، خس، بصل، جبن, طماطم";
+  document.querySelector('.b4dn').innerText="خبز برغر، شريحتة لحم، خس، بصل، جبن, طماطم";
+  document.querySelector('.b5dn').innerText="خبز برغر، شريحتة لحم مدخنه، خس، بصل، جبن, طماطم";
+
   document.querySelector('.b4d').innerText="خبز برغر، قطعة دجاج مقرمشة، خس، طماطم، مايونيز";
   document.querySelector('.b5d').innerText="خبز برغر، شريحة لحم، جبنة، خس، بصل، طماطم";
   document.querySelector('.b6d').innerText="خبز برغر، قطعة دجاج مقرمشة، خس، طماطم، مايونيز";
 
+  document.querySelector('.h2new').innerText="زنجر";
+  document.querySelector('.new10').innerText="زنجر دبل";
+  document.querySelector('.newd10').innerText="خبز برغر، قطعتين دجاج مقرمشة، خس، طماطم، مايونيز";
+  document.querySelector('.new11').innerText="زنجر سوبريم";
+  document.querySelector('.newd11').innerText="خبز برغر، قطعة دجاج مقرمشة، خس، طماطم، مايونيز";
+  document.querySelector('.new13').innerText="هالبينو زنجر ";
+  document.querySelector('.newd13').innerText=" هالبينو، خبز برغر، قطعة دجاج مقرمشة، خس، طماطم، مايونيز";
+  
+  document.querySelector('.new14').innerText="وينر زنجر ";
+  document.querySelector('.newd14').innerText="خبز برغر، قطعة دجاج مقرمشة، خس، طماطم، مايونيز";
+  
+  
+
   document.querySelector('.h2').innerText="سندويتش";
-  document.querySelector('.p11').innerText="تويستر زنجر";
+  document.querySelector('.p11').innerText="تويستر ";
   document.querySelector('.p22').innerText="تشيز تويستر";
   document.querySelector('.p33').innerText="فاهيتا لحم";
   document.querySelector('.p44').innerText="فاهيتا دجاج";
@@ -113,14 +137,22 @@ document.querySelectorAll('label').forEach(el1 => {
   document.querySelector('.p33d').innerText="خبز تورتيلا،   فاهيتا لحم، خس، طماطم, مايونيز";
   document.querySelector('.p44d').innerText="خبز تورتيلا،   فاهيتا دجاج، خس، طماطم, مايونيز";
   document.querySelector('.p55d').innerText="خبز شاورما، دجاج  شاورما، خس، طماطم، مايونيز";
+  document.querySelector('.new20').innerText="هوت تويستر ";
+  document.querySelector('.newd20').innerText="خبز تورتيلا، سبايسي دجاج زنجر مقرمش، خس، طماطم، مايونيز";
+   document.querySelector('.new21').innerText="فيلادلفيا";
+   document.querySelector('.newd21').innerText=" لحم، صمون, خس، طماطم، مايونيز";
+  document.querySelector('.new22').innerText="فرانشيسكو دجاج";
+  document.querySelector('.newd22').innerText=" دجاج, صمون, خس، طماطم، مايونيز";
+  document.querySelector('.new23').innerText="ستيك سيندويتش";
+  document.querySelector('.newd23').innerText=" لحم ستيك، صمون, خس، طماطم، مايونيز";
 
   document.querySelector('.h3').innerText="بيتزا";
-  document.querySelector('.pi1').innerText="بيتزا حبل ضهر";
+  document.querySelector('.pi1').innerText="بيتزا ستيك";
   document.querySelector('.pi2').innerText="ماركريتا بيتزا";
   document.querySelector('.pi3').innerText="بيتزا خضراوات";
   document.querySelector('.pi4').innerText="بيتزا لحم";
   document.querySelector('.pi5').innerText="بيتزا دجاج";
-  document.querySelector('.pi6').innerText="بيتزا تونا";
+  document.querySelector('.pi6').innerText="بيتزا باربيكيو";
   document.querySelector('.pi7').innerText="بيتزا مشكل";
   document.querySelector('.pi8').innerText="بيتزا بيبروني";
   document.querySelector('.pi9').innerText="بيتزا وينروالد";
@@ -134,6 +166,19 @@ document.querySelectorAll('label').forEach(el1 => {
   document.querySelector('.t22d').innerText="يُقدَّم مع البطاطس المقلية والبيبسي";
   document.querySelector('.t33d').innerText="يُقدَّم مع البطاطس المقلية والبيبسي";
   document.querySelector('.t44d').innerText="يُقدَّم مع البطاطس المقلية والبيبسي";
+  document.querySelector('.new30').innerText="تشيكن بوكس";
+  document.querySelector('.newd30').innerText="يُقدَّم مع البطاطس المقلية والبيبسي";
+  document.querySelector('.newd31').innerText="يُقدَّم مع البطاطس المقلية والبيبسي";
+  document.querySelector('.newd32').innerText="يُقدَّم مع البطاطس المقلية والبيبسي";
+  document.querySelector('.newd33').innerText="يُقدَّم مع البطاطس المقلية والبيبسي";
+  document.querySelector('.newd34').innerText="يُقدَّم مع البطاطس المقلية والبيبسي";
+  document.querySelector('.newd35').innerText="يُقدَّم مع البطاطس المقلية والبيبسي";
+
+  document.querySelector('.new31').innerText="كريسب بوكس";
+  document.querySelector('.new32').innerText="وينر بوكس";
+  document.querySelector('.new33').innerText="توين كرسب";
+  document.querySelector('.new34').innerText="تويستر بوكس";
+  document.querySelector('.new35').innerText="هوت بوكس";
 
   document.querySelector('.h5').innerText="وجبات عائلية";
   document.querySelector('.f11').innerText="كلاسيك توفير";
@@ -146,11 +191,18 @@ document.querySelectorAll('label').forEach(el1 => {
   document.querySelector('.h6').innerText="ريزو";
   document.querySelector('.r11').innerText="كلاسيك ريزو";
   document.querySelector('.r22').innerText="ريزو بلجبن";
-  document.querySelector('.r33').innerText="ريزو مدخن";
+  document.querySelector('.r33').innerText="ريزو ميكس";
+  document.querySelector('.new40').innerText="باربيكيو ريزو ";
+  document.querySelector('.new41').innerText="هوت ريزو ";
+  document.querySelector('.new42').innerText=" وينر ريزو";
+
+  document.querySelector('.h7new').innerText="ستيك وينروالد";
+  document.querySelector('.st1').innerText="ستيك دجاج";
+  document.querySelector('.st2').innerText="ستيك لحم";
 
   document.querySelector('.h7').innerText="وجبات دايت";
-  document.querySelector('.dt11').innerText="سلطة دجاج";
-  document.querySelector('.dt22').innerText="ستيك دجاج";
+  document.querySelector('.dt11').innerText="سلطة سيزر";
+  document.querySelector('.dt22').innerText="وجبة دايت";
   document.querySelector('.dt33').innerText="دجاج و رز";
 
   document.querySelector('.h8').innerText="وجبات الاطفال";
@@ -170,6 +222,7 @@ document.querySelectorAll('label').forEach(el1 => {
 
   document.querySelector('.h10').innerText="المشروبات";
   document.querySelector('.dr1').innerText="بيبسي";
+  document.querySelector('.dr2').innerText="ماء";
 
   document.querySelector('.h11').innerText="المشروبات الساخنة";
   document.querySelector('.hd1').innerText="شاي";
@@ -191,25 +244,40 @@ else
   document.querySelector('.h1m').innerText="برجر";
   document.querySelector('.b1mmm').innerText="جيز برجر";
   document.querySelector('.b2mmm').innerText="كلاسيك برجر";
+  document.querySelector('.new1m').innerText="دبل جيز برجر";
+  document.querySelector('.new2m').innerText=" موزاريلا برجر";
+  document.querySelector('.new3m').innerText=" مشروم  برجر";
+  document.querySelector('.new4m').innerText=" وينروالد  برجر";
+  document.querySelector('.new5m').innerText="   برجر مدخن";
   document.querySelector('.b3m').innerText="دبل برجر";
-  document.querySelector('.b4m').innerText="زنجر";
+  document.querySelector('.b4m').innerText="زنجر كلاسيك";
   document.querySelector('.b5m').innerText="ستيك برجر";
   document.querySelector('.b6m').innerText="زنجر باربيكيو";
 
+  document.querySelector('.h2mnew').innerText="زنجر";
+  document.querySelector('.new10m').innerText="زنجر دبل";
+  document.querySelector('.new11m').innerText="زنجر سوبريم";
+  document.querySelector('.new12m').innerText="هالبينو زنجر ";
+  document.querySelector('.new13m').innerText="وينر زنجر ";
+
   document.querySelector('.h2m').innerText="سندويتش";
-  document.querySelector('.p11m').innerText="تويستر زنجر";
+  document.querySelector('.p11m').innerText="تويستر ";
   document.querySelector('.p22m').innerText="تشيز تويستر";
   document.querySelector('.p33m').innerText="فاهيتا لحم";
   document.querySelector('.p44m').innerText="فاهيتا دجاج";
   document.querySelector('.p55m').innerText="شاورما وينروالد";
+  document.querySelector('.new20m').innerText="هوت تويستر ";
+  document.querySelector('.new21m').innerText="فيلادلفيا";
+  document.querySelector('.new22m').innerText="فرانشيسكو دجاج";
+  document.querySelector('.new23m').innerText="ستيك سيندويتش";
 
   document.querySelector('.h3m').innerText="بيتزا";
-  document.querySelector('.pi1m').innerText="بيتزا حبل ضهر";
+  document.querySelector('.pi1m').innerText="بيتزا ستيك";
   document.querySelector('.pi2m').innerText="ماركريتا بيتزا";
   document.querySelector('.pi3m').innerText="بيتزا خضراوات";
   document.querySelector('.pi4m').innerText="بيتزا لحم";
   document.querySelector('.pi5m').innerText="بيتزا دجاج";
-  document.querySelector('.pi6m').innerText="بيتزا تونا";
+  document.querySelector('.pi6m').innerText="بيتزا باربيكيو";
   document.querySelector('.pi7m').innerText="بيتزا مشكل";
   document.querySelector('.pi8m').innerText="بيتزا بيبروني";
   document.querySelector('.pi9m').innerText="بيتزا وينروالد";
@@ -219,6 +287,13 @@ else
   document.querySelector('.t22m').innerText="دجاج مسحب";
   document.querySelector('.t33m').innerText="افخاذ دجاج";
   document.querySelector('.t44m').innerText="دجاج اسكالوب";
+  document.querySelector('.new30m').innerText="تشيكن بوكس";
+
+  document.querySelector('.new31m').innerText="كريسب بوكس";
+  document.querySelector('.new32m').innerText="وينر بوكس";
+  document.querySelector('.new33m').innerText="توين كرسب";
+  document.querySelector('.new34m').innerText="تويستر بوكس";
+  document.querySelector('.new35m').innerText="هوت بوكس";
 
   document.querySelector('.h5m').innerText="وجبات عائلية";
   document.querySelector('.f11m').innerText="كلاسيك توفير";
@@ -228,11 +303,18 @@ else
   document.querySelector('.h6m').innerText="ريزو";
   document.querySelector('.r11m').innerText="كلاسيك ريزو";
   document.querySelector('.r22m').innerText="ريزو بلجبن";
-  document.querySelector('.r33m').innerText="ريزو مدخن";
+  document.querySelector('.r33m').innerText="ريزو ميكس";
+  document.querySelector('.new40m').innerText="باربيكيو ريزو ";
+  document.querySelector('.new41m').innerText="هوت ريزو ";
+  document.querySelector('.new42m').innerText=" وينر ريزو";
+
+  document.querySelector('.h7mnew').innerText="ستيك وينروالد";
+  document.querySelector('.st1m').innerText="ستيك دجاج";
+  document.querySelector('.st2m').innerText="ستيك لحم";
 
   document.querySelector('.h7m').innerText="وجبات دايت";
-  document.querySelector('.dt11m').innerText="سلطة دجاج";
-  document.querySelector('.dt22m').innerText="ستيك دجاج";
+  document.querySelector('.dt11m').innerText="سلطة سيزر";
+  document.querySelector('.dt22m').innerText="وجبة دايت";
   document.querySelector('.dt33m').innerText="دجاج و رز";
 
   document.querySelector('.h8m').innerText="وجبات الاطفال";
@@ -252,6 +334,7 @@ else
 
   document.querySelector('.h10m').innerText="المشروبات";
   document.querySelector('.dr1m').innerText="بيبسي";
+  document.querySelector('.dr2m').innerText="ماء";
 
   document.querySelector('.h11m').innerText="المشروبات الساخنة";
   document.querySelector('.hd1m').innerText="شاي";
@@ -412,6 +495,24 @@ butscrol12.addEventListener('click', function () {
   }
 });
 
+const butscrol13 = document.querySelector('.item13');
+butscrol13.addEventListener('click', function () {
+  if (!ischangedL) {
+    scrollToElement('sc13m');
+  } else {
+    scrollToElement('sc13');
+  }
+});
+
+const butscrol14 = document.querySelector('.item14');
+butscrol14.addEventListener('click', function () {
+  if (!ischangedL) {
+    scrollToElement('sc14m');
+  } else {
+    scrollToElement('sc14');
+  }
+});
+
 // Example of toggling the layout (to simulate your layout change button)
 const layoutToggleButton = document.querySelector('.layout-toggle'); // Change to your layout toggle button selector
 layoutToggleButton.addEventListener('click', function () {
@@ -430,6 +531,8 @@ layoutToggleButton.addEventListener('click', function () {
   document.getElementById('sc10').style.display = ischangedL ? 'block' : 'none';
   document.getElementById('sc11').style.display = ischangedL ? 'block' : 'none';
   document.getElementById('sc12').style.display = ischangedL ? 'block' : 'none';
+  document.getElementById('sc13').style.display = ischangedL ? 'block' : 'none';
+  document.getElementById('sc14').style.display = ischangedL ? 'block' : 'none';
 
   document.getElementById('sc1m').style.display = ischangedL ? 'none' : 'block';
   document.getElementById('sc2m').style.display = ischangedL ? 'none' : 'block';
@@ -443,6 +546,8 @@ layoutToggleButton.addEventListener('click', function () {
   document.getElementById('sc10m').style.display = ischangedL ? 'none' : 'block';
   document.getElementById('sc11m').style.display = ischangedL ? 'none' : 'block';
   document.getElementById('sc12m').style.display = ischangedL ? 'none' : 'block';
+  document.getElementById('sc13m').style.display = ischangedL ? 'none' : 'block';
+  document.getElementById('sc14m').style.display = ischangedL ? 'none' : 'block';
 
 });
 
@@ -555,7 +660,7 @@ else if(localStorage.getItem('lan')=="kur")
 htlan();
 
 function enableAlternateScrollEffect() {
-  for (let i = 1; i <= 12; i++) {
+  for (let i = 1; i <= 14; i++) {
     const verticalElement = document.querySelector(`.vert${i}`);
     const horizontalContainer = document.querySelector('.items');
     const horizontalTarget = document.querySelector(`.hort${i}`);
